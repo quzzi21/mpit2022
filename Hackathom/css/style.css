@@ -1,0 +1,179 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+   background: linear-gradient(297.41deg, #79B5F0 0%, #C6E3FF 90.22%);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.header {
+    text-align: right;
+}
+
+.header__nav_name {
+    margin: 10px;
+}
+
+.header_left {
+    display: flex;
+    font-size: 30px;
+}
+
+.header_raid {
+    display: flex;
+    font-size: 25px;
+}
+
+.header__nav_me {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.header__nav_sign {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.header__nav_learning {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.content_left {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.content_raid {
+    display: flex;
+    text-align: left;
+    font-size: 40px;
+    z-index: 2;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.play {
+    padding: 10px;
+    background: #46A1FB;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.play_no {
+    padding: 10px;
+    margin: 10px;
+    background:
+        #46A1FB;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 36px
+}
+
+.display {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    font-size: 30px;
+}
+
+.display_nado {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    font-size: 30px;
+}
+
+.game {
+    font-size: 35px;
+    padding-top: 100px;
+    z-index: 4;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.img_game {
+    display: flex;
+    width: 20px;
+    align-items: center;
+    z-index: 5;
+    overflow-x: scroll;
+}
+
+.img_game div {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 19px;
+    margin: 10px;
+
+}
+
+.go_glav {
+    display: flex;
+    padding-top: 1px;
+    text-align: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column
+}
+
+
+a:visited {
+    color: white;
+}
+
+.img_fon {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.go_1{
+background: #46A1FB;
+}
+.toxka{
+    position: absolute;
+    right: 0px;
+    top:320px;
+    z-index: 5;
+}
+.new{
+    background: #E2E2E2;
+    box-shadow: 0px 5px 0px #B5B5B5;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="header_left">
+            <div class="header_img"><img src="img/cdod 1.png" alt=""></div>
+            <div class="header__nav_name">
+                ЦДОД
+            </div>
+        </div>
+        <div class="header_raid">
+            <a href="https://www.rusprofile.ru/id/4236904">
+                <div class="header__nav_me">
+                    о нас
+                </div>
+            </a>
+            <div class="header__nav_learning" onclick="document.querySelector('.display').style.display='flex'">
+                обучения
+            </div>
+            <div class="header__nav_sign im" onclick="document.querySelector('.display').style.display='flex'">
+                sign in
+            </div>
+
+    </header>
+
+    <div class="content">
+        <div class="content_raid">
+            Увлекательные <br>игры с наглядным ростом ваших<br> навыков
+        </div>
+        <div class="content_left">
+            <div class="play">Играть</div>
+            <div class="play_no" onclick="document.querySelector('.display_nado').style.display='flex'">Играть без регистрация</div>
+        </div>
+    </div>
+
+    <div class="display_nado" onclick="document.querySelector('.display_nado').style.display='none'" style="display: none">
+        <div class="nado">
+            надо обязательно <br>зарегистрироватьса
+        </div>
+    </div>
+
+    <div class="display" onclick="document.querySelector('.display').style.display='none'" style="display: none">
+        <div class="hi">
+            Привет!<br>
+            Я пока не работаю :(
+        </div>
+    </div>
+    <div class="game">
+        <div class="new_game">
+            Новые игры
+        </div>
+        <div class="img_game">
+            <div class="main">
+
+                <div class="new">
+                    <img src="img/html5-logo-31813 1.png" alt="">
+                </div>
+                <div class="go_1" onclick="document.querySelector('.display').style.display='flex'">НАЧАТЬ</div>
+            </div>
+            <div class="main">
+
+                <div class="new">
+                    <img src="img/icons8-css3-240 1.png" alt="">
+                </div>
+                <div class="go_1" onclick="document.querySelector('.display').style.display='flex'">НАЧАТЬ</div>
+            </div>
+            <div class="main">
+
+                <div class="new">
+                    <img src="img/javascript-39394 1.png" alt="">
+                </div>
+                <div class="go_1" onclick="document.querySelector('.display').style.display='flex'">НАЧАТЬ</div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="map_mb">
+
+    </div>
+    <div class="img_fon">
+        <img src="img/Union.png" style="width: 400px;">
+
+    </div>
+    <style>
+        .img_game {
+            overflow: hidden;
+            width: 480px;
+        }
+
+        .img_game .new {
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .img_game img {
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+    <div class="toxka">
+        <img src="img/pngwing 2.png" alt="">
+    </div>
+</body>
+
+</html>
